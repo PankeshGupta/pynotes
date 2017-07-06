@@ -13,6 +13,6 @@ class Point:
         distance =  math.sqrt(
             (self.x-point2.x)**2 + (self.y - point2.y)**2)
 
-        print("The distance between 2 points is ",diatnce,"units ")
+        print("The distance between 2 points is ",distance,"units ")
 if __name__ == "main":
     main()
