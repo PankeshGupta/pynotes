@@ -10,7 +10,9 @@ class Point:
         self.y = y
         print("point moved sucessfully")
     def calculate_distance(self,point2):
-        return math.sqrt(
-            (self.x-point2.x)**2 + (self.y - pont2.y)**2)
+        distance =  math.sqrt(
+            (self.x-point2.x)**2 + (self.y - point2.y)**2)
+
+        print("The distance between 2 points is ",diatnce,"units ")
 if __name__ == "main":
     main()
