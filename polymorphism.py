@@ -14,17 +14,15 @@ class Mp3(AudioFile):
     def play(self):
         print("playing song {} with mp3 extension ".format(self.filename))
 
-class wav():
+class Wav():
     ext = "wav"
     def play(self):
         
         print("playing {} as wav file".format(self.filename))
-class ogg():
+class Ogg():
     ext = "ogg"
     def play(self):
         print("playing {} as an ogg file".format(self.filename))
-
-
         
 if __name__ == "main":
     main()
